@@ -1,0 +1,189 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cv-form{
+    display: flex;
+    flex-direction: row;
+    height: 80vw;
+    width: 80vw;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.left-part{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 65vw;
+    width: 35vw;
+    background-color: rgb(203, 201, 201);
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+
+.personal-info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 30vw ;
+}
+
+.personal-info> h3{
+    display: flex;
+    justify-content: start;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 15px;
+}
+
+.work-Experience{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.for-more{
+    width: 3vw;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    height: fit-content;
+    border-radius: 5px;
+    margin-top: 1.5vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.for-more:hover{
+    background-color: black;
+    color: white;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    height: 10vw;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#option{
+    width: 10vw;
+    height: 3vw;
+}
+
+.pair{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-part{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 65vw;
+    width: 35vw;
+    background-color: rgb(203, 201, 201);
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+
+.all-input{
+    height: 3vw;
+}
+
+button{
+    background-color: rgb(77, 185, 77);
+    color: white;
+    margin-top: 1.5rem;
+}
+textarea{
+    width: 26vw;
+    height: 6vw;
+} */
+
+
+.cv-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+  
+  .section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .input-group label {
+    display: block;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-group button {
+    background-color: #ccc;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type='submit'] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  
+  button[type='button'] {
+    background-color: #f44336;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type='button']:hover {
+    background-color: #d32f2f;
+  }

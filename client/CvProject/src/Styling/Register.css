@@ -1,0 +1,112 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-page{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    height: 30rem;
+    width: 28rem;
+    margin-top: 10vh;
+    box-shadow: 10px 10px 8px 5px #888888;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 2rem;
+}
+
+input{
+    width: 20rem;
+    height: fit-content;
+} */
+
+
+
+
+ * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(79, 79, 94);
+    background-image: linear-gradient(to bottom right, rgb(79, 79, 94), rgb(173, 190, 209));
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    height: 30rem;
+    width: 28rem;
+    box-shadow: 10px 10px 8px 1px #545454;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  input {
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #reg-btn {
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgb(79, 79, 94);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-top: 1rem;
+  }
+    
